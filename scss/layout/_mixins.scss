@@ -1,0 +1,6 @@
+@mixin typeEffect ($type, $speed, $start, $end) {
+  white-space: nowrap;
+  overflow: hidden;
+  -webkit-animation: $type $speed steps($start, $end);
+  animation: $type $speed steps($start, $end);
+}
