@@ -1,15 +1,13 @@
 @import 'mixins';
 
 .css-typing p{
-  font-family: "Courier";
-  font-size: 14px;
   width: 50em;
-  @include typeEffect (type, 3s, 40, end)
+  @include typeEffect (type, 4s, 40, end)
 }
 
 .css-typing p:nth-child(2) {
   opacity: 0;
-  @include typeEffect (type2, 3s, 40, end)
+  @include typeEffect (type2, 4s, 40, end)
   -webkit-animation-delay: 1s;
   animation-delay: 1s;
   -webkit-animation-fill-mode: forwards;
@@ -26,10 +24,6 @@
   from {
     width: 0;
   }
-}
-
-.blink {
-  animation: blink 1s infinite;
 }
 
 @keyframes type2 {
@@ -66,6 +60,10 @@
   100% {
     opacity: 1;
   }
+}
+
+.blink {
+  animation: blink 1s infinite;
 }
 
 @keyframes blink{

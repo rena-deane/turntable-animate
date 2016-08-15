@@ -1,4 +1,6 @@
 @mixin typeEffect ($type, $speed, $start, $end) {
+  font-family: "Courier";
+  font-size: 1.15em;
   white-space: nowrap;
   overflow: hidden;
   -webkit-animation: $type $speed steps($start, $end);

@@ -2,10 +2,6 @@ import React, { Component } from 'react'
 
 class Enter extends Component {
 
-  constructor (props) {
-    super(props)
-  }
-
   render () {
     return (
       <div id='enter-wrapper'>
@@ -22,8 +18,8 @@ class Enter extends Component {
         </div>
 
         <div id='options'>
-          <button>Lets Jam</button>
-          <button>No Thanks</button>
+          <button className='yes'>Lets Jam</button>
+          <button className='no'>No Thanks</button>
         </div>
 
       </div>
