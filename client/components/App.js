@@ -1,11 +1,7 @@
 import React, { Component } from 'react'
-import Enter from './Enter';
+import Enter from './Enter'
 
 class App extends Component {
-
-  constructor (props) {
-    super(props)
-  }
 
   render () {
     return (
