@@ -5,6 +5,6 @@
 - [ ] UX/UI
 
 Reinforce learning of:
-
+- [ ] Scaffolding project without generator
 - [ ] React
 - [ ] Sass
